@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>STYLiSH</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header id="nav">
+    <img src="./src/images/logo.png" id="logo" data-category="all" width="258px">
+    <div class="navbar">
+      <a href="#" data-category="women">女裝</a>
+      <a href="#" data-category="men">男裝</a>
+      <a href="#" data-category="accessories">配件</a>
+    </div>
+    <!--搜尋欄位 -->
+    <div class="search-box">
+      <span class="search-icon-span" id="search-icon-span">
+        <img src="./src/images/search.png" class="search-icon">
+      </span>
+      <div class="search-container" id="search-container">
+        <input class="search-input" type="text" id="search-input" placeholder="西裝" autofocus />
+      </div>
+
+      <div class="icons">
+        <a href="/checkout">
+          <img src="./src/images/cart.png" class="icon" />
+          <span class="cart-count">0</span>
+        </a>
+        <a href="/login">
+          <img src="./src/images/member.png" class="icon" />
+        </a>
+      </div>
+
+    </div>
+  </header>
+  <section>
+    <div class="banner" id="carousel">
+      <div class="banner-text-box">
+        <div class="banner-text" id="banner-text">
+
+        </div>
+
+        <div class="banner-title" id="banner-title"></div>
+        <div class="carousel-dots" id="carousel-dots">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="product-container">
+      <!--Loading skeleton-->
+      <div class="skeleton-screen">
+        <div class="skeleton-column">
+          <div class="skeleton skeleton-img"></div>
+          <div class="skeleton skeleton-title"></div>
+          <div class="skeleton skeleton-price"></div>
+        </div>
+        <div class="skeleton-column">
+          <div class="skeleton skeleton-img"></div>
+          <div class="skeleton skeleton-title"></div>
+          <div class="skeleton skeleton-price"></div>
+        </div>
+        <div class="skeleton-column">
+          <div class="skeleton skeleton-img"></div>
+          <div class="skeleton skeleton-title"></div>
+          <div class="skeleton skeleton-price"></div>
+        </div>
+      </div>
+      <!--loading img-->
+      <div class="loading-img" id="loading">
+      </div>
+
+      <div class="product-list">
+
+        <!-- // Product items here //
+        <div class="product-box">
+          <img src="images/clothes.jpeg" alt="clothes" class="product-img">
+          <span class="cube-box">
+            <div class="color-cube white"></div>
+            <div class="color-cube green"></div>
+            <div class="color-cube grey"></div>
+          </span>
+          <h2 class="product-title">前開衩扭結洋裝</h2>
+          <span class="price">TWD.799</span>
+        </div>
+        <div class="product-box">
+          <img src="images/clothes.jpeg" alt="clothes" class="product-img">
+          <span class="cube-box">
+            <div class="color-cube white"></div>
+            <div class="color-cube green"></div>
+            <div class="color-cube grey"></div>
+          </span>
+          <h2 class="product-title">前開衩扭結洋裝</h2>
+          <span class="price">TWD.799</span>
+        </div>
+        <div class="product-box">
+          <img src="images/clothes.jpeg" alt="clothes" class="product-img">
+          <span class="cube-box">
+            <div class="color-cube white"></div>
+            <div class="color-cube green"></div>
+            <div class="color-cube grey"></div>
+          </span>
+          <h2 class="product-title">前開衩扭結洋裝</h2>
+          <span class="price">TWD.799</span>
+        </div>
+        <div class="product-box">
+          <img src="images/clothes.jpeg" alt="clothes" class="product-img">
+          <span class="cube-box">
+            <div class="color-cube white"></div>
+            <div class="color-cube green"></div>
+            <div class="color-cube grey"></div>
+          </span>
+          <h2 class="product-title">前開衩扭結洋裝</h2>
+          <span class="price">TWD.799</span>
+        </div>
+        <div class="product-box">
+          <img src="images/clothes.jpeg" alt="clothes" class="product-img">
+          <span class="cube-box">
+            <div class="color-cube white"></div>
+            <div class="color-cube green"></div>
+            <div class="color-cube grey"></div>
+          </span>
+          <h2 class="product-title">前開衩扭結洋裝</h2>
+          <span class="price">TWD.799</span>
+        </div>
+        <div class="product-box">
+          <img src="images/clothes.jpeg" alt="clothes" class="product-img">
+          <span class="cube-box">
+            <div class="color-cube white"></div>
+            <div class="color-cube green"></div>
+            <div class="color-cube grey"></div>
+          </span>
+          <h2 class="product-title">前開衩扭結洋裝</h2>
+          <span class="price">TWD.799</span>
+        --></a>
+      </div>
+    </div>
+  </section>
+
+  <!--footer-->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-nav">
+        <a href="#">關於STYLISH</a>
+        <a href="#">服務條款</a>
+        <a href="#">隱私政策</a>
+        <a href="#">聯絡我們</a>
+        <a href="#">FAQ</a>
+      </div>
+
+      <div class="social-icons">
+        <a href="#"><img src="./src/images/line.png"></a>
+        <a href="#"><img src="./src/images/twitter.png"></a>
+        <a href="#"><img src="./src/images/facebook.png"></a>
+      </div>
+      <span class="footer-p">© 2018. All rights reserved.</span>
+
+    </div>
+    <!-- 手機版購物車 -->
+    <div class="footer-icons">
+      <div class="icon-box cart">
+        <a href="/checkout">
+          <img src="./src/images/cart-mobile.png" class="icon" />
+          <span class="footer-text">購物車</span>
+          <span class="cart-count">0</span>
+        </a>
+      </div>
+      <div class="icon-box member">
+        <a href="#">
+          <img src="./src/images/member-mobile.png" class="icon" />
+          <span class="footer-text">會員</span>
+        </a>
+        <!-- <span class="line"></span> -->
+      </div>
+    </div>
+    <!-- 手機版購物車 -->
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+
+</html>
